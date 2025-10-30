@@ -1,0 +1,81 @@
+
+# send folder and  file to the server
+scp -r -o StrictHostKeyChecking=no C:/Users/mostafa/Documents/Flask_Ai root@147.93.90.85:/
+
+# send zip file to the server
+
+
+scp -o StrictHostKeyChecking=no C:\Users\mostafa\Desktop\flask_ai.zip root@147.93.90.85:/root/
+
+scp -o StrictHostKeyChecking=no C:\Users\mostafa\Desktop\flask_ai\flask_ai.conf root@147.93.90.85:/root/
+
+# unzip a file in server
+
+sudo apt-get update
+sudo apt-get install unzip
+
+unzip www.zip
+
+
+# server password
+@R201820182018a
+
+
+#Remove a folder from the server
+
+rm -rf folder_name
+
+#Remove a file from the server
+ rm  file_name
+
+
+
+
+# Hellp     
+
+
+scp -o StrictHostKeyChecking=no C:\Users\mostafa\Documents\Flask_Ai\flask_app.conf root@147.93.90.85:/root/www/falsk_ai/
+
+
+sudo ln -s /etc/nginx/sites-available/yourproject /etc/nginx/sites-enabled
+
+
+
+// Terminal Code for Flask =======================================
+python -m venv venv
+
+
+/// 
+ Set-ExecutionPolicy Unrestricted -Scope Process
+
+ //
+ venv\Scripts\activate
+
+//
+python -m pip install --upgrade pip
+
+pip freeze > requirements.txt 
+pip install -r requirements.txt
+ //
+ py app.py runserver
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
